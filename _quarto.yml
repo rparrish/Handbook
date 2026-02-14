@@ -1,0 +1,28 @@
+project:
+  type: book
+
+execute:
+  freeze: auto
+
+book:
+  title: "Handbook"
+  author: "Norah Jones"
+  date: "2/14/2026"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+
+
